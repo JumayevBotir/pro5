@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+    </style>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav">
+        <div class="container">
+            <div class="nav-top">
+                <ul class="nav-items">
+                    <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">SERVICES</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">ABOUT</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">FEATURES</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">BOOK NOW</a></li>
+                </ul>
+                <select class="nav-section">
+                    <option value="1" class="nav-option">HOME</option>
+                    <option value="2" class="nav-option">SERVICES</option>
+                    <option value="3" class="nav-option" >ABOUT</option>
+                    <option value="4" class="nav-option">FEATURES</option>
+                    <option value="5" class="nav-option">BOOK NOW</option>
+                </select>
+                <div class="nav-center">
+                    <img src="./img/Mask group.png" alt="" class="nav-img">
+                    <h1 class="nav-title">FIRST CLEANING</h1>
+                    <p class="nav-text">Local Natural Clean</p>
+                </div>
+                <div class="nav-top_right">
+                    <p class="nav-subtext">Want a free estimate now?</p>
+                    <h4 class="nav-subtitle"><a href="tel:+998900415171"><img src="./img/fxemoji_telephonereceiver2.png" alt="" class="nav-pic"></a> <small class="nav-small"><a href="#" class="nav-tel">+012-345-677-890</a></small></h4>
+                </div>
+            </div>
+            <div class="nav-bottom">
+                <div class="nav-bottom_left">
+                    <h2 class="nav-bottom_title">
+                        GET A QUOTE INSTANTLY
+                    </h2>
+                    <p class="nav-bottom_text">
+                        Aliquip ex ea commodo consequat placeat facere possimus, omnis  voluptas assumenda est.
+                    </p>
+                    <input type="text" class="nav-name" placeholder="Elisha Bernadth">
+                    <input type="text" class="nav-email" placeholder="Enter your email">
+                    <select class="nav-select">
+                        <option value="1">Choose Property</option>
+                        <option value="2">Tursunmurod</option>
+                    </select>
+                    <select class="nav-select" >
+                        <option value="1">How many room</option>
+                        <option value="1">room</option>
+                    </select>
+                    <select class="nav-select" >
+                        <option value="1">Choose date schedule</option>
+                        <option value="1">room</option>
+                    </select>
+                    <button class="nav-button">Booking Now</button>
+                </div>
+                <div class="nav-bottom_right">
+                   <div class="div">
+                    
+                    <h1 class="nav-bottom_subtitle">PROFESSIONAL YOUR <br> HOME CLEANING <br>SERVICES</h1>
+                    <p class="nav-bottom_subtext">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis autem vel eum iure
+                         reprehenderit qui in ea voluptate</p>
+                   </div>
+                    
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">            <img src="./img/Frame 1921.png" alt="" class="nav-picture">
+                          </div>
+                          <div class="swiper-slide">            <img src="./img/Rectangle 770 (1).png" alt="" class="nav-picture">
+                          </div>
+                          <div class="swiper-slide">            <img src="./img/Rectangle 770.png" alt="" class="nav-picture">
+                          </div>
+                          <div class="swiper-slide">            <img src="./img/Rectangle 770 (1).png" alt="" class="nav-picture">
+                          </div>
+                          <div class="swiper-slide">            <img src="./img/Frame 1921.png" alt="" class="nav-picture">
+                          </div>
+                          <div class="swiper-slide">            <img src="./img/Rectangle 770.png" alt="" class="nav-picture">
+                          </div>
+                          <div class="swiper-slide">            <img src="./img/Rectangle 770 (1).png" alt="" class="nav-picture">
+                          </div>
+                          <div class="swiper-slide">            <img src="./img/Frame 1921.png" alt="" class="nav-picture">
+                          </div>
+                          <div class="swiper-slide">            <img src="./img/Rectangle 770 (1).png" alt="" class="nav-picture">
+                          </div>
+                           
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3        ,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+</body>
+</html>
