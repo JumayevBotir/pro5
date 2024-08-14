@@ -414,9 +414,35 @@
         margin-top: 30px;
         margin-bottom: 30px;
     }
+    .navbar-pic{
+        width: 20px;
+        height: 20px;
+    }
 }
 @media(max-width:350px){
     .swiper{
         width: 280px;
+    }
+    .navbar-title{
+        font-size: 19px;
+        padding-bottom: 10px;
+    }
+    .navbar-subtext{
+        font-size: 10px;
+        ;
+    }
+    .navbar-item{
+        padding-bottom: 4px;
+    }
+    .navbar-img{
+        height: 35vh;
+    }
+    .navbar-pic{
+        width: 15px;
+        height: 15px;
+    }
+    .navbar .container{
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 }
